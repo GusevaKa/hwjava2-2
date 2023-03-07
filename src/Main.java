@@ -3,16 +3,16 @@ public class Main {
         System.out.println("Hello world!");
 
         int account = 100;
-        int refill = 900;
+        int refill = 1500;
         int result = (account + refill);
         int bonus = (refill / 100);
 
         if (refill >= 1000) {
-            System.out.println (" Итоговый счет " + (bonus + result));
-            System.out.println("Бонусные рубли" + bonus);
+            System.out.println(" Итоговый счет " + (bonus + result));
+            System.out.println(" Бонусные рубли " + bonus);
         } else {
-            System.out.println(" Итоговый счет" + result);
+            System.out.println(" Итоговый счет " + result);
         }
 
-        }
     }
+}
